@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+}
+
+/* ======== HEADER ======== */
+
+.titulo{
+    color: rgb(255, 98, 125);
+    display: flex;
+    font-family: 'Baloo Tamma 2', cursive;
+    justify-content: center;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+}
+
+.div-header{
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    font-family: 'Baloo Tamma 2', cursive;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+/* ========= MAIN ========= */
+
+.subtitulo{
+    color: white;
+    display: flex;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 35px;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+}
+
+.div-main{
+    display: flex;
+    justify-content: center;
+}
+
+.div-texto{
+    width: 50%;
+}
+
+.negrito{
+    color: rgb(255, 87, 115);
+}
+
+.div-rosa{
+    background-color: rgba(255, 112, 136, 0.753);
+    padding: 0;
+    padding-top: 30px;
+}
+
+.div-branca{
+    padding: 0;
+    padding-top: 30px;
+}
+
+.texto-branco{
+    color: white;
+    font-family: 'Baloo Tamma 2', cursive;
+    text-align: justify;
+}
+
+.texto-rosa{
+    color: rgb(255, 87, 115);
+    font-family: 'Baloo Tamma 2', cursive;
+    text-align: justify;
+}
+
+.div-foto-rosa{
+    background-color: rgba(255, 79, 108, 0.753);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.div-foto-branca{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.foto{
+    border-radius: 12px;
+    width: 300px;
+}
+
+.foto-caue{
+    border-radius: 12px;
+    height: 550px;
+    width: 300px;
+}
+
+/* ======== FOOTER ======== */
+
+footer{
+    background-color: rgba(255, 79, 108, 0.753);
+    padding: 30px;
+}
+
+.foto-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.foto-aloisio{
+    border-radius: 12px;
+    width: 500px;
+}
+
+.subtitulo-footer{
+    color: white;
+    display: flex;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 35px;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+}
+
+/* ======== RESPONSIVO ======== */
+
+@media(max-width:440px){
+    .div-texto{
+        width: 85%;
+    }
+}
+
+@media(max-width:325px){
+    .foto{
+        width: 200px;
+    }
+
+    .foto-caue{
+        height: 450px;
+        width: 200px;
+    }
+
+}
+
+@media(max-width:530px){
+    .foto-aloisio{
+        width: 300px;
+    }
+}
+
+@media(max-width:360px){
+    .foto-aloisio{
+        width: 200px;
+    }
+
+    .subtitulo-footer{
+        font-size: 25px;
+    }
+}
+
+.responsive-iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
